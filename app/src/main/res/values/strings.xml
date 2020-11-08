@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InicioSesion</string>
+    <string name="registrarseBnt">Registrarse</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contrasenia</string>
+    <string name="confirmarContrasenia">Registrarse</string>
+    <string name="celular">Celular</string>
+    <string name="direccion">Direccion</string>
+    <string name="subirImagenBtn">Subir imagen</string>
+    <string name="correo">Correo</string>
+</resources>
