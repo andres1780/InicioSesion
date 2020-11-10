@@ -17,6 +17,7 @@ public class registro extends AppCompatActivity {
         setContentView(R.layout.activity_registro);
         configureopcion1();
         regist_btnsend();
+        laFotico();
     }
 
     private void configureopcion1()
@@ -26,6 +27,17 @@ public class registro extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(registro.this, iniciosesionprincipal.class));
+            }
+        });
+    }
+
+    private void laFotico(){
+        Button laFotico = (Button) findViewById(R.id.btnTomarFoto);
+        laFotico.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(registro.this, actividad_Camara.class));
             }
         });
     }
