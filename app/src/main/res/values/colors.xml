@@ -11,4 +11,6 @@
     <color name="colorFondobtn">#4B8115</color>
     <color name="colorBordeFondobtn">#076110</color>
     <color name="colorTextoGris">#707070</color>
+    <color name="colorFondobtnwelcome">#EE7400</color>
+    <color name="colorBordeFondobtnwelcome">#C56101</color>
 </resources>
